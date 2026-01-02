@@ -1,85 +1,106 @@
-/* --- Existing Styles Remain Unchanged --- */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Responsive Enhancements */
-@media (max-width: 600px) {
-  .property-card {
-    margin-bottom: 20px;
-  }
-  .property-image img {
-    height: 140px;
-  }
-  .property-body {
-    padding: 10px;
-  }
-  .property-footer {
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+}
+.box1 {
+    display: flex;
+    height: 100vh;
+}
+
+.box2 {
+    width: 220px;
+    background-color: #0b1f3a;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 8px 10px;
-    font-size: 13px;
-  }
-  .hero-content {
-    padding: 24px 8px;
-    max-width: 95vw;
-  }
-  .contact-section {
-    padding: 30px 8px;
-  }
+    align-items: center;
 }
 
-/* Animation Keyframes */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-/* Animation Classes */
-.hero-content {
-  animation: fadeInUp 1s ease;
-}
-.hero-overlay {
-  animation: fadeIn 1.2s ease;
-}
-.property-card {
-  animation: zoomIn 0.8s ease;
-}
-.property-image img {
-  animation: fadeIn 1.2s ease;
-}
-.badge-buy {
-  animation: fadeInUp 0.7s ease;
-}
-.view-more-btn {
-  animation: fadeInUp 1s ease;
-}
-.contact-section {
-  animation: fadeInUp 1.2s ease;
-}
-.section {
-  animation: fadeIn 1.5s ease;
+.profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-/* Optional: Stagger Animation for Multiple Cards */
-.property-card:nth-child(1) { animation-delay: 0.1s; }
-.property-card:nth-child(2) { animation-delay: 0.2s; }
-.property-card:nth-child(3) { animation-delay: 0.3s; }
-.property-card:nth-child(4) { animation-delay: 0.4s; }
+.profile p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    width: 100%;
+}
+
+.menu li {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu li i {
+    margin-right: 10px;
+}
+
+.menu li:hover,
+.menu li.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.main1 {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    background-color: #f6f6f6;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 200px;
+    height: 130px;
+    background-color: #0b1f3a;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.card-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+} */
