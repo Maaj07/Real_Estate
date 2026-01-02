@@ -1,0 +1,85 @@
+/* --- Existing Styles Remain Unchanged --- */
+
+/* Responsive Enhancements */
+@media (max-width: 600px) {
+  .property-card {
+    margin-bottom: 20px;
+  }
+  .property-image img {
+    height: 140px;
+  }
+  .property-body {
+    padding: 10px;
+  }
+  .property-footer {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+  .hero-content {
+    padding: 24px 8px;
+    max-width: 95vw;
+  }
+  .contact-section {
+    padding: 30px 8px;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation Classes */
+.hero-content {
+  animation: fadeInUp 1s ease;
+}
+.hero-overlay {
+  animation: fadeIn 1.2s ease;
+}
+.property-card {
+  animation: zoomIn 0.8s ease;
+}
+.property-image img {
+  animation: fadeIn 1.2s ease;
+}
+.badge-buy {
+  animation: fadeInUp 0.7s ease;
+}
+.view-more-btn {
+  animation: fadeInUp 1s ease;
+}
+.contact-section {
+  animation: fadeInUp 1.2s ease;
+}
+.section {
+  animation: fadeIn 1.5s ease;
+}
+
+/* Optional: Stagger Animation for Multiple Cards */
+.property-card:nth-child(1) { animation-delay: 0.1s; }
+.property-card:nth-child(2) { animation-delay: 0.2s; }
+.property-card:nth-child(3) { animation-delay: 0.3s; }
+.property-card:nth-child(4) { animation-delay: 0.4s; }
