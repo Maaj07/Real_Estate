@@ -43,7 +43,7 @@ A comprehensive web-based application for managing real estate properties, agent
     ```
 3.  **Push to GitHub**:
     - Create a new empty repository on GitHub.
-    - Run the commands provided by GitHub (replace `YOUR_USERNAME` and `REPO_NAME`):
+    - Run the commands provided by GitHub (`https://github.com/Maaj07` and `Real_Estate`):
     ```bash
     git branch -M main
     git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
