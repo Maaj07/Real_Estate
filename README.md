@@ -29,23 +29,3 @@ A comprehensive web-based application for managing real estate properties, agent
 4.  **Run**:
     - Open your browser and navigate to `http://localhost/Real_Estate/UserInterface/index.php` (or `http://localhost/Real_Estate/`).
 
-## How to Push to GitHub
-
-**Note:** Git is not currently detected on this system. You must install Git first.
-
-1.  **Install Git**: Download and install [Git for Windows](https://git-scm.com/download/win).
-2.  **Initialize Repository**:
-    Open a terminal (Command Prompt or PowerShell) in this folder and run:
-    ```bash
-    git init
-    git add .
-    git commit -m "Initial commit of Real Estate System"
-    ```
-3.  **Push to GitHub**:
-    - Create a new empty repository on GitHub.
-    - Run the commands provided by GitHub (`https://github.com/Maaj07` and `Real_Estate`):
-    ```bash
-    git branch -M main
-    git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
-    git push -u origin main
-    ```
